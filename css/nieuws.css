@@ -1,0 +1,48 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    height: 3%;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+
+    position: relative;
+    left: 19%;
+}
+
+nav ul li {
+    margin: 8px;
+    border: 1px solid white;
+    list-style-type: none;
+    padding: 15px;
+    background-color: white;
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    background-color: rgb(24, 207, 70);
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    
+}
+
+body{
+    background-image: url('../images/giphy.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+nav ul li:hover {
+    background-color: rgb(255, 255, 255);
+}
